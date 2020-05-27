@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Project Tetra – Getting Started</title><link>https://capsulecorplab.github.io/project-tetra/docs/getting-started/</link><description>Recent content in Getting Started on Project Tetra</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://capsulecorplab.github.io/project-tetra/docs/getting-started/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Example Page</title><link>https://capsulecorplab.github.io/project-tetra/docs/getting-started/example-page/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://capsulecorplab.github.io/project-tetra/docs/getting-started/example-page/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Project Tetra – How-To Guides</title><link>https://capsulecorplab.github.io/project-tetra/docs/howto_guides/</link><description>Recent content in How-To Guides on Project Tetra</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 05 Jan 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://capsulecorplab.github.io/project-tetra/docs/howto_guides/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Bed and Chair Metrics</title><link>https://capsulecorplab.github.io/project-tetra/docs/howto_guides/beds/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://capsulecorplab.github.io/project-tetra/docs/howto_guides/beds/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>This is a placeholder page. Replace it with your own content.&lt;/p>
 &lt;/div>
@@ -261,4 +261,79 @@ This is a warning with a title.
 &lt;h3 id="external-links">External Links&lt;/h3>
 &lt;p>Stumptown PBR&amp;amp;B keytar plaid street art, forage XOXO pitchfork selvage affogato green juice listicle pickled everyday carry hashtag. Organic sustainable letterpress sartorial scenester intelligentsia swag bushwick. Put a bird on it stumptown neutra locavore. IPhone typewriter messenger bag narwhal. Ennui cold-pressed seitan flannel keytar, single-origin coffee adaptogen occupy yuccie williamsburg chillwave shoreditch forage waistcoat.&lt;/p>
 &lt;pre>&lt;code>This is the final element on the page and there should be no margin below this.
-&lt;/code>&lt;/pre></description></item></channel></rss>
+&lt;/code>&lt;/pre></description></item><item><title>Docs: Examples</title><link>https://capsulecorplab.github.io/project-tetra/docs/howto_guides/examples/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://capsulecorplab.github.io/project-tetra/docs/howto_guides/examples/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>This is a placeholder page that shows you how to use this template site.&lt;/p>
+&lt;/div>
+&lt;p>Do you have any example &lt;strong>applications&lt;/strong> or &lt;strong>code&lt;/strong> for your users in your repo or elsewhere? Link to your examples here.&lt;/p></description></item><item><title>Docs: Contribution Guidelines</title><link>https://capsulecorplab.github.io/project-tetra/docs/howto_guides/contribution-guidelines/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://capsulecorplab.github.io/project-tetra/docs/howto_guides/contribution-guidelines/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>These basic sample guidelines assume that your Docsy site is deployed using Netlify and your files are stored in GitHub. You can use the guidelines &amp;ldquo;as is&amp;rdquo; or adapt them with your own instructions: for example, other deployment options, information about your doc project&amp;rsquo;s file structure, project-specific review guidelines, versioning guidelines, or any other information your users might find useful when updating your site. &lt;a href="https://github.com/kubeflow/website/blob/master/README.md">Kubeflow&lt;/a> has a great example.&lt;/p>
+&lt;p>Don&amp;rsquo;t forget to link to your own doc repo rather than our example site! Also make sure users can find these guidelines from your doc repo README: either add them there and link to them from this page, add them here and link to them from the README, or include them in both locations.&lt;/p>
+&lt;/div>
+&lt;p>We use &lt;a href="https://gohugo.io/">Hugo&lt;/a> to format and generate our website, the
+&lt;a href="https://github.com/google/docsy">Docsy&lt;/a> theme for styling and site structure,
+and &lt;a href="https://www.netlify.com/">Netlify&lt;/a> to manage the deployment of the site.
+Hugo is an open-source static site generator that provides us with templates,
+content organisation in a standard directory structure, and a website generation
+engine. You write the pages in Markdown (or HTML if you want), and Hugo wraps them up into a website.&lt;/p>
+&lt;p>All submissions, including submissions by project members, require review. We
+use GitHub pull requests for this purpose. Consult
+&lt;a href="https://help.github.com/articles/about-pull-requests/">GitHub Help&lt;/a> for more
+information on using pull requests.&lt;/p>
+&lt;h2 id="quick-start-with-netlify">Quick start with Netlify&lt;/h2>
+&lt;p>Here&amp;rsquo;s a quick guide to updating the docs. It assumes you&amp;rsquo;re familiar with the
+GitHub workflow and you&amp;rsquo;re happy to use the automated preview of your doc
+updates:&lt;/p>
+&lt;ol>
+&lt;li>Fork the &lt;a href="https://github.com/helpfulengineering/project-tetra">Project Tetra repo&lt;/a> on GitHub.&lt;/li>
+&lt;li>Make your changes and send a pull request (PR).&lt;/li>
+&lt;li>If you&amp;rsquo;re not yet ready for a review, add &amp;ldquo;WIP&amp;rdquo; to the PR name to indicate
+it&amp;rsquo;s a work in progress. (&lt;strong>Don&amp;rsquo;t&lt;/strong> add the Hugo property
+&amp;ldquo;draft = true&amp;rdquo; to the page front matter, because that prevents the
+auto-deployment of the content preview described in the next point.)&lt;/li>
+&lt;li>Wait for the automated PR workflow to do some checks. When it&amp;rsquo;s ready,
+you should see a comment like this: &lt;strong>deploy/netlify — Deploy preview ready!&lt;/strong>&lt;/li>
+&lt;li>Click &lt;strong>Details&lt;/strong> to the right of &amp;ldquo;Deploy preview ready&amp;rdquo; to see a preview
+of your updates.&lt;/li>
+&lt;li>Continue updating your doc and pushing your changes until you&amp;rsquo;re happy with
+the content.&lt;/li>
+&lt;li>When you&amp;rsquo;re ready for a review, add a comment to the PR, and remove any
+&amp;ldquo;WIP&amp;rdquo; markers.&lt;/li>
+&lt;/ol>
+&lt;h2 id="updating-a-single-page">Updating a single page&lt;/h2>
+&lt;p>If you&amp;rsquo;ve just spotted something you&amp;rsquo;d like to change while using the docs, Docsy has a shortcut for you:&lt;/p>
+&lt;ol>
+&lt;li>Click &lt;strong>Edit this page&lt;/strong> in the top right hand corner of the page.&lt;/li>
+&lt;li>If you don&amp;rsquo;t already have an up to date fork of the project repo, you are prompted to get one - click &lt;strong>Fork this repository and propose changes&lt;/strong> or &lt;strong>Update your Fork&lt;/strong> to get an up to date version of the project to edit. The appropriate page in your fork is displayed in edit mode.&lt;/li>
+&lt;li>Follow the rest of the &lt;a href="#quick-start-with-netlify">Quick start with Netlify&lt;/a> process above to make, preview, and propose your changes.&lt;/li>
+&lt;/ol>
+&lt;h2 id="previewing-your-changes-locally">Previewing your changes locally&lt;/h2>
+&lt;p>If you want to run your own local Hugo server to preview your changes as you work:&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Follow the instructions in &lt;a href="https://capsulecorplab.github.io/project-tetra/docs/getting-started">Getting started&lt;/a> to install Hugo and any other tools you need. You&amp;rsquo;ll need at least &lt;strong>Hugo version 0.45&lt;/strong> (we recommend using the most recent available version), and it must be the &lt;strong>extended&lt;/strong> version, which supports SCSS.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Fork the &lt;a href="https://github.com/helpfulengineering/project-tetra">Project Tetra repo&lt;/a> repo into your own project, then create a local copy using &lt;code>git clone&lt;/code>. Don’t forget to use &lt;code>--recurse-submodules&lt;/code> or you won’t pull down some of the code you need to generate a working site.&lt;/p>
+&lt;pre>&lt;code>git clone --recurse-submodules --depth 1 https://github.com/helpfulengineering/project-tetra.git
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;li>
+&lt;p>Run &lt;code>hugo server&lt;/code> in the site root directory. By default your site will be available at http://localhost:1313/. Now that you&amp;rsquo;re serving your site locally, Hugo will watch for changes to the content and automatically refresh your site.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Continue with the usual GitHub workflow to edit files, commit them, push the
+changes up to your fork, and create a pull request.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="creating-an-issue">Creating an issue&lt;/h2>
+&lt;p>If you&amp;rsquo;ve found a problem in the docs, but you&amp;rsquo;re not sure how to fix it yourself, please create an issue in the &lt;a href="https://github.com/helpfulengineering/project-tetra/issues">Project Tetra repo&lt;/a>. You can also create an issue about a specific page by clicking the &lt;strong>Create Issue&lt;/strong> button in the top right hand corner of the page.&lt;/p>
+&lt;h2 id="useful-resources">Useful resources&lt;/h2>
+&lt;ul>
+&lt;li>[Docsy user guide](wherever it goes): All about Docsy, including how it manages navigation, look and feel, and multi-language support.&lt;/li>
+&lt;li>&lt;a href="https://gohugo.io/documentation/">Hugo documentation&lt;/a>: Comprehensive reference for Hugo.&lt;/li>
+&lt;li>&lt;a href="https://guides.github.com/activities/hello-world/">Github Hello World!&lt;/a>: A basic introduction to GitHub concepts and workflow.&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Working with Ponycopters</title><link>https://capsulecorplab.github.io/project-tetra/docs/howto_guides/ponycopters/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://capsulecorplab.github.io/project-tetra/docs/howto_guides/ponycopters/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>This is a placeholder page. Replace it with your own content.&lt;/p>
+&lt;/div>
+&lt;p>This is the section landing page.&lt;/p></description></item></channel></rss>
