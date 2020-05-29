@@ -317,7 +317,7 @@ If you install from the &lt;a href="https://github.com/gohugoio/hugo/releases">r
 make sure you download the &lt;code>_extended&lt;/code> version which supports SCSS.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Fork the &lt;a href="https://github.com/helpfulengineering/project-tetra">Project Tetra repo&lt;/a> repo into your own project, then create a local copy using &lt;code>git clone&lt;/code>. Don’t forget to use &lt;code>--recurse-submodules&lt;/code> or you won’t pull down some of the code you need to generate a working site.&lt;/p>
+&lt;p>Fork the &lt;a href="https://github.com/helpfulengineering/project-tetra">Project Tetra repo&lt;/a> into your own project, then create a local copy using &lt;code>git clone&lt;/code>. Don’t forget to use &lt;code>--recurse-submodules&lt;/code> or you won’t pull down some of the code you need to generate a working site.&lt;/p>
 &lt;pre>&lt;code>git clone --recurse-submodules --depth 1 https://github.com/&amp;lt;your_github_username&amp;gt;/project-tetra.git
 &lt;/code>&lt;/pre>&lt;/li>
 &lt;li>
